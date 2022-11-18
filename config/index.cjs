@@ -34,15 +34,15 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
 //         {
 //           type: '生日', name: '李四', year: '1996', date: '09-31',
+// //         },
+//         {
+//           type: '节日', name: '相识纪念日', year: '2022', date: '11-13',
 //         },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '10-20',
-        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-10-20' },
+        { keyword: 'love_day', date: '2022-11-13' },
         // 结婚纪念日
 //         { keyword: 'marry_day', date: '2022-09-09' },
       ],
@@ -51,7 +51,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '19p9PLVgYEUCOwqzaq4buJJnN4YJqkFbYAHmLQkHntc',
+  CALLBACK_TEMPLATE_ID: 'VJmUJxy0Ze4v27_7Pr0WokudqWPW4QgZFhGxcQLdZ78',
 
   CALLBACK_USERS: [
     {
